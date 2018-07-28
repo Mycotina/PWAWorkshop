@@ -1,0 +1,8 @@
+{
+  "name": "PWAWorkshop.json",
+  "version": "1.0.0",
+  "description": "Dependency manager for workshop",
+  "main": "server.js",
+  "author": "",
+  "license": "MIT"
+}

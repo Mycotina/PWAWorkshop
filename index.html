@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BCA Progressive Benefit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>BCA Benefits</title>
+    <link rel="stylesheet" type="text/css" href="./styles/general_style.css">
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  
+  <body>
+    <div class="header">
+      <div id="header_logo"></div>
+    </div>
+    
+    <!-- Slideshow container -->
+  <div class="slideshow-container" style="margin-top:76px">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="./assets/carousel_img1.png" style="width:100%; height:180px">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./assets/carousel_img2.png" style="width:100%; height:180px">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./assets/carousel_img3.png" style="width:100%; height:180px">
+    </div>
+
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <div class="promo_container" style="margin-top:20px">
+    <h4 class="promo_header">BCA for You!</h4>
+    
+    <a href="./pages/promo1_page.html">
+      <h6 class="promo_item_header">Increase your transaction, get the benefits!</h6>
+      <img src="./assets/promo_img1.png" style="width:100%; margin-top:10px">
+    </a>
+    
+    <a href="./pages/promo2_page.html">
+      <h6 class="promo_item_header" style="margin-top:20px">Transaction is just a click away</h6>
+      <img src="./assets/promo_img2.png" style="width:100%; margin-top:10px">
+    </a>
+    
+    <a href="./pages/promo3_page.html">
+      <h6 class="promo_item_header" style="margin-top:20px">More enjoyable vacation with BCA</h6>
+      <img src="./assets/promo_img3.png" style="width:100%; margin-top:10px">
+    </a>
+  </div>
+  
+  
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots   = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+      }
+      
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+
+  </script>
+  
+  <script src="./scripts/main.js"></script>
+    
+  </body>
+  
+</html>
