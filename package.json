@@ -1,8 +1,20 @@
 {
-  "name": "PWAWorkshop.json",
+  "name": "PWAWorkshop",
   "version": "1.0.0",
-  "description": "Dependency manager for workshop",
+  "description": "A simple application for PWA workshop",
   "main": "server.js",
-  "author": "",
-  "license": "MIT"
+  "author": "William",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mycotina/PWAWorkshop.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
+  },
+  "engines": {
+    "node": "8.11.3"
+  }
 }
