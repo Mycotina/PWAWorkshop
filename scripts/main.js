@@ -8,4 +8,11 @@
 	   	console.log("service worker is ready to work!");
 	  });
 	}
+
+	if(!navigator.onLine){
+		window.location.href = "./pages/offline_page.html";
+	}
+	/*document.addEventListener('DOMContentLoaded', function(){
+		console.log("Try printing document inner html")
+    });*/
 })();

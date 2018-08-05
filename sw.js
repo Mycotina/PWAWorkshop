@@ -1,22 +1,15 @@
 'use strict';
 
-var cacheName = "bca_cache_9";
+var cacheName = "bca_cache_23";
 
 var cacheFiles = [
 	'/',
 	'/styles/general_style.css',
 	'/index.html',
-	'pages/promo1_page.html',
-	'pages/promo2_page.html',
-	'pages/promo3_page.html',
+  'pages/offline_page.html',
 	'/scripts/main.js',
+  '/scripts/localforage.min.js',
 	'/assets/bca-logo.png',
-	'/assets/carousel_img1.png',
-	'/assets/carousel_img2.png',
-	'/assets/carousel_img3.png',
-	'/assets/promo_img1.png',
-	'/assets/promo_img2.png',
-	'/assets/promo_img3.png',
 	'/assets/homescreen_icon/icon-128x128.png',
 	'/assets/homescreen_icon/icon-144x144.png',
 	'/assets/homescreen_icon/icon-152x152.png',
@@ -24,6 +17,17 @@ var cacheFiles = [
 	'/assets/homescreen_icon/icon-256x256.png',
 	'/assets/homescreen_icon/icon-512x512.png'
 ]
+
+/*'/assets/carousel_img1.png',
+  '/assets/carousel_img2.png',
+  '/assets/carousel_img3.png',
+  '/assets/promo_img1.png',
+  '/assets/promo_img2.png',
+  '/assets/promo_img3.png',*/
+
+/*'pages/promo1_page.html',
+  'pages/promo2_page.html',
+  'pages/promo3_page.html',*/
 
 console.log('Service Worker Started', self);
 

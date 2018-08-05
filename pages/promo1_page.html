@@ -6,7 +6,7 @@
   
   <title>BCA Benefits</title>
   <link rel="stylesheet" type="text/css" href="../styles/general_style.css">
-  
+
   <body>
     <a href="../index.html">
       <header class="header">
@@ -15,12 +15,16 @@
     </a>
     
     <div id="content" style="margin-top:70px;">
-      <h3 style="margin-left:3px; color: #004a89;">Increase your chance!</h3>
+      <div>
+        <h3 style="margin-left:3px; color: #004a89; display: inline-block; width: 90%; vertical-align: center">Increase your chance!</h3>
+        <img src="../assets/bookmark_star.png" id="bookmark_star" style="height: 20px; width: 20px; display: inline-block; vertical-align: bottom;">
+      </div>
+      
       <img src="../assets/promo_img1.png" style="width:100%; margin-top:15px">
-      <h6 style="color: #004a89; margin-top:10px; margin-left:3px;">Belanja dengan kartu debit BCA, dapatkan perluang menang pajero dan honda beat</h6>
+      <h6 class="promo_title" style="color: #004a89; margin-top:10px; margin-left:3px;">Belanja dengan kartu debit BCA, dapatkan perluang menang pajero dan honda beat</h6>
       
       <h6 style="margin-top:10px;margin-left:3px">Syarat & ketentuan</h6>
-      <ul style="font-size:12px;margin-top:6px;margin-left:5px;">
+      <ul class="tnc" style="font-size:12px;margin-top:6px;margin-left:5px;">
         <li>Anda mendapatkan kupon elektronik tiap kelipatan pembelian 100.000</li>
         <li>Track jumlah kupon anda dengan BCA mobile / klik BCA</li>
         <li>Semakin banyak kupon yang anda kumpulkan, semakin tinggi kesempatan menang</li>
@@ -42,4 +46,7 @@
     
   </body>
   
+  <script src="../scripts/localforage.min.js"></script>
+  <script src="../scripts/bookmarker.js"></script>
+
 </html>
