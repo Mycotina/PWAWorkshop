@@ -1,6 +1,6 @@
 'use strict';
 
-var cacheName = "bca_cache_25";
+var cacheName = "bca_cache_26";
 
 var cacheFiles = [
 	'/',
