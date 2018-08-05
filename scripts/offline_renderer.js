@@ -2,7 +2,7 @@
 
 (function(){
 	localforage.config({
-	    name: 'MyTestDB'
+	    name: 'PWAWorkshopDB'
 	});
 
 	var bookmark = {
