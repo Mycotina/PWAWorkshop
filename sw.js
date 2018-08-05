@@ -1,14 +1,15 @@
 'use strict';
 
-var cacheName = "bca_cache_23";
+var cacheName = "bca_cache_25";
 
 var cacheFiles = [
 	'/',
 	'/styles/general_style.css',
 	'/index.html',
-  'pages/offline_page.html',
+    'pages/offline_page.html',
 	'/scripts/main.js',
-  '/scripts/localforage.min.js',
+    '/scripts/localforage.min.js',
+	'/scripts/offline_renderer.js',
 	'/assets/bca-logo.png',
 	'/assets/homescreen_icon/icon-128x128.png',
 	'/assets/homescreen_icon/icon-144x144.png',
