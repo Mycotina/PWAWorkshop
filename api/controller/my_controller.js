@@ -34,3 +34,5 @@ exports.delete_a_task = function(req, res) {
   console.log("Req : " + req);
   res.send("NOEEEE");
 };
+
+//https://stackoverflow.com/questions/6912584/how-to-get-get-query-string-variables-in-express-js-on-node-js

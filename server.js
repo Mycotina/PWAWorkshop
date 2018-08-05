@@ -13,3 +13,9 @@ app.use(express.static('.'))
 app.listen(port);
 
 console.log('The server is up an running on port : ' + port);
+
+/*
+app.get('/', function (req, res) {
+   res.send('Hello World');
+})
+*/
