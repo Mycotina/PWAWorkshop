@@ -16,7 +16,7 @@
 
 	var container = document.getElementById("content");
 
-	localforage.getItem('my_key').then(function(result){
+	localforage.getItem('my_bookmark').then(function(result){
 		bookmark = JSON.parse(result);
 		for(var i = 0 ; i < bookmark.title.length; i++){
 
